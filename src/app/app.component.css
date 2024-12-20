@@ -1,0 +1,61 @@
+/* Add a background image to the container and center elements */
+.container {
+     /* Center the container horizontally */
+    padding: 5px;
+    text-align: center; /* Center the text inside the container */
+    color: orange;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+    background-size: cover; /* Make the image cover the container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height for the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+}
+.h3{
+    justify-content: center;
+}
+/* Style the text input */
+input[type="text"] {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit the maximum width */
+    padding: 10px; /* Padding inside the textbox */
+    margin: 8px 0; /* Margin above and below */
+    display: inline-block; /* Make it inline with other elements */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    font-size: 16px; /* Adjust font size */
+    font-family: 'Arial', sans-serif; /* Smoother font */
+}
+
+/* Add focus effect to the text input */
+input[type="text"]:focus {
+    border: 2px solid #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style the button */
+.button1 {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Inline block to allow padding */
+    font-size: 16px; /* Increase font size */
+    margin: 2px; /* Margin around the button */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    max-width: 400px; /* Limit the maximum width */
+    width: 100%; /* Make button full-width of its container */
+}
+
+.button1:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
